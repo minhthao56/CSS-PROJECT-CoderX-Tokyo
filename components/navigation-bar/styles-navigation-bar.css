@@ -1,8 +1,4 @@
-body{
-    background-image: url(/Bai-tap-lon-css/images/home.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
 .header-container{
     display: flex;
     font-family: 'Raleway', sans-serif;
