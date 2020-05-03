@@ -20,9 +20,15 @@ body{
     align-items: center;
     justify-content: center;
 }
+.titile-appointment h2{
+    margin: 0;
+}
 .span-apppoitment{
     color: #666666;
     font-size: 0.85rem;
+    margin-top: 0.7rem;
+    margin-bottom: 2rem;
+    font-weight: 100;
 }
 .form-appointment{
     display: flex;
@@ -50,14 +56,14 @@ body{
     border-color: #FF5F5C;
 }
 .checkbox-appointment{
-    font-size: 0.83rem;
+    font-size: 0.8rem;
     color: #666666;
     position: relative;
-    padding-left: 25px;
+    padding-left: 1.5rem;
 }
 .checkbox-appointment input[type=checkbox]{
     position: absolute;
-    opacity: 0;
+    display: none;
     cursor: pointer;
     height: 0;
     width: 0
@@ -72,6 +78,7 @@ body{
     left: 0;
     height: 14px;
     width: 14px;
+    margin: 0;
     background-color:#ddd;
     border-radius: 3px;
     transition: all 0.3s;
