@@ -1,0 +1,112 @@
+body{
+    background-image: url(/Bai-tap-lon-css/images/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-container{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+      
+}
+.logo-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-icon img{
+    height: 2rem;
+    width: 3rem;
+}
+.nav ul{
+    display: flex;
+}
+
+#navli{
+    height: 40px
+}
+.nav li{
+    list-style: none;
+}
+.nav a{
+    color: rgba(250, 250, 250, 0.8);
+    font-size: 0.85rem;
+    text-decoration: none;
+    padding-right: 1.8rem;
+    opacity: 0.8;
+    transition: all 0.5s ;
+
+}
+.nav a:hover {
+    opacity: 1;
+    color: white;
+    
+}
+.container-nav-button{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+ 
+ }   
+.button-get-webify-today{
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-get-webify-today button{
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    background-color: white;
+    height: 2.1rem;
+    width: 10rem;
+    border-radius: 1.5rem;
+    font-weight: bold;
+   
+}
+.showdownmenu{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 2rem;
+    right: -250%;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s linear;
+}
+.showdownmenu1{
+    padding: 10px;
+    border-right: solid;
+    width: 10rem;
+    border-width: 1px;
+    border-color: rgba(100, 100, 100, 0.2);
+    
+}
+.mage-menu{
+    position: relative;
+}
+
+.mage-menu:hover .showdownmenu{
+    
+    visibility: visible;
+    opacity: 1;
+}
+.showdownmenu1 ul{
+    display: inline;
+    left: 0;
+
+}
+span{
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #555555;
+    
+}
+.showdownmenu1 li{
+    margin: 1rem 0 1rem 1rem;
+    font-size: 0.8rem;
+    color: #777777;
+
+
+}
