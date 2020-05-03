@@ -1,0 +1,22 @@
+body{
+    background-image: url(/Bai-tap-lon-css/images/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
+}
+.main-titile{
+    color: white;
+}
+.main-titile h1{
+    font-size: 3.5rem;
+}
+.button-free-consultation button{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: #FF5F5C;
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 0.4rem;
+}
