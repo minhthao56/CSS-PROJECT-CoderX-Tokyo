@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    width: 1140px;
+    display: grid;
+}
+.main{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.col1{
+    padding-top: 10rem;
+    padding-right: 5rem;
+}
+.col2{
+    padding-top: 5rem;
+}
