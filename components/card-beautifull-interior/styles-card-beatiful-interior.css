@@ -1,0 +1,30 @@
+
+*{
+    box-sizing: border-box;
+}
+.container-car-interior{
+    background-image: url(/Bai-tap-lon-css/images/interior1.jpg);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    transform:none;
+    transition: transform ease 0.5s;
+}
+.hidden-car-interior{
+    height: 100%;
+    width: 100%;
+    background-color: #222;
+    opacity: 0;
+    transition: opacity ease 0.5s;
+}
+.container-car-interior:hover{
+    transform: scale(1.06);
+}
+.container-car-interior:hover .hidden-car-interior{
+    opacity: 0.5;
+}
+.overflow-interior{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
