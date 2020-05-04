@@ -1,0 +1,32 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.titles-room-designs{
+    display: flex;
+}
+.title-rom h2{
+    font-size: 1.9rem;
+    font-weight: 400;
+}
+.title-rom p{
+    font-weight: 300;
+    color: #777777;
+}
+.view-full-layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}    
+.button-view-full-layout{
+    border: none;
+    height: 40px ;
+    width: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: #ff5f5c ;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.9rem;
+
+}
