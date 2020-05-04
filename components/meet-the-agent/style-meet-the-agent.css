@@ -1,0 +1,14 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.meet-the-agent{
+    text-align: center;
+}
+.meet-the-agent h2{
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+.meet-the-agent p{
+    color: rgba(100, 100, 100, 0.9);
+    font-weight: 300;
+}
