@@ -1,0 +1,49 @@
+body{
+    font-family: 'Roboto', sans-serif
+}
+
+.logo-award{
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(200, 200, 200, 0.4);
+    border-radius: 5px;
+}
+.hidden-logo-award{
+    color: white;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    height: 100%;
+    width: 100%;
+    transition: opacity ease 0.5s;
+    border-radius: 5px;
+}
+.hidden-logo-award h3{
+    font-size: 1.2rem;
+    transform: translateX(0);
+    transition: transform 0.5s;
+    
+}
+.hidden-logo-award p{
+    
+    font-weight: 200;
+    font-size: 0.85rem;
+    transform: translateY(0);
+    transition: transform 0.5s;
+
+}
+.logo-award:hover .hidden-logo-award{
+    opacity:0.9;
+}
+.logo-award:hover .hidden-logo-award h3{
+    transform: translateX(-3px);
+}
+.logo-award:hover .hidden-logo-award p{
+    transform: translateY(-3px);
+}
