@@ -17,6 +17,9 @@ body{
     font-size: 35x;
     font-weight: 500;
 }
+.title-a-and-q p{
+    font-size: 1.2rem;
+}
 .questions-answer{
     padding: 10px 20px 10px 20px;
     border: solid;

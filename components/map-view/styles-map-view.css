@@ -1,85 +1,20 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-.containter-map-consultation{
-    background-image: url(/Bai-tap-lon-css/images/home.jpg);
-    background-position-x: center;
-    background-attachment: fixed;
-}
-.overplay-map{
-    height: 100%;
-    width: 100%;
-    background-color: rgba(10, 10, 10, 0.7);
-    display: flex;
-}
+
 .container-map{
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
+    
 }
 #map{
     height: 500px;
-    width: 500px;
-}
-.consultation{
-    flex: 1;
-}
-.title-consultation{
-    color: white;
-    display: flex;
-    flex-direction: column;
-}
-.title-consultation h1{
-    margin: 0;
-    font-weight: 500;
-}
-.title-consultation span{
-    font-size: 1rem;
-    margin-top: 0.7rem;
-    margin-bottom: 2rem;
-    font-weight: 300;
-}
-.form-consultation{
-    display: flex;
-    flex-direction: column;
-}
-::placeholder{
-    font-family: 'Roboto', sans-serif;
-    color: #aaaaaa;
-}
-.textarea-consultation, .input-consultation{
-    border-style: solid;
-    border-color: rgba(100, 100, 100, 0.2);
-    border-radius: 3px;
-    border-width: 1px;
-    margin: 10px 0 10px 0;
-    font-family: 'Roboto', sans-serif;
-    padding-left: 10px;
-    transition: border-color 0.7s;
-}
-.input-consultation{
-    height: 35px;
-}
-.input-consultation:focus, .textarea-consultation:focus{
-    outline: none;
-    border-color: #FF5F5C;
-}
-
-.submit-consultation{
-    border: none;
-    background-color: #FF5F5C;
-    color: white;
-    height: 40px;
-    font-family: 'Roboto', sans-serif;
+    width: 1000px;
+    border: solid;
+    border-width: 5px;
     border-radius: 5px;
-    font-size: 0.9rem;
-    margin-top: 1rem;
-    transform: translateY(0);
-    box-shadow: none;
-    transition: transform 0.2s, box-shadow 0.2s;
-}
-.submit-consultation:hover{
-    transform: translateY(-1px);
-    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.7);
+    border-color: wheat;
 }

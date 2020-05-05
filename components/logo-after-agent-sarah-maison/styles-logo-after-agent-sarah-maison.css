@@ -10,6 +10,7 @@ body{
     border-width: 1px;
     border-color: rgba(200, 200, 200, 0.4);
     border-radius: 5px;
+    height: 150px;
 }
 .hidden-logo-award{
     color: white;
@@ -18,7 +19,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #222222;
+    background-color: #111111;
     height: 100%;
     width: 100%;
     transition: opacity ease 0.5s;
@@ -39,7 +40,7 @@ body{
 
 }
 .logo-award:hover .hidden-logo-award{
-    opacity:0.9;
+    opacity:0.97;
 }
 .logo-award:hover .hidden-logo-award h3{
     transform: translateX(-3px);

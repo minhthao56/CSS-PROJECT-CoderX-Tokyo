@@ -11,6 +11,8 @@ body{
 .title-rom p{
     font-weight: 300;
     color: #777777;
+    line-height: 28px;
+    font-size: 1.2rem;
 }
 .view-full-layout{
     display: flex;

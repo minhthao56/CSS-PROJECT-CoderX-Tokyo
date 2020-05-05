@@ -11,4 +11,6 @@ body{
 .title-testimonial p{
     color: rgba(100, 100, 100, 0.9);
     font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 25px;
 }

@@ -66,6 +66,8 @@ body{
 
 }
 .final-footer{
+    position: relative;
+    bottom: 10px;
     font-size: 13px;
     color: #777777;
 

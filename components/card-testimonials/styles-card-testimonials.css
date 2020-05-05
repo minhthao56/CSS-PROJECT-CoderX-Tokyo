@@ -18,11 +18,11 @@ body{
     transform: translateY(-7px);
 }
 .para-testimonals{
-    padding: 30px;
+    padding: 10px 30px 20px 40px;
 }
 .name-avatar{
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 .name-avatar p{
     font-size: 0.93rem;

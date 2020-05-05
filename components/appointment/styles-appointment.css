@@ -47,6 +47,7 @@ body{
     font-family: 'Roboto', sans-serif;
     padding-left: 10px;
     transition: border-color 0.7s;
+    height: 140px;
 }
 .input-appointment{
     height: 35px;
