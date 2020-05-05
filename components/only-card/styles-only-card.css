@@ -27,8 +27,10 @@
 
 }
 .number-card{
-    font-size: 4rem;
-    font-weight: bolder;
+    font-size: 3.8rem;
     
+}
+.lable-card {
+    font-weight: 200;
 }
 
