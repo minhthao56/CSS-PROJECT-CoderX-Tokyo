@@ -14,8 +14,9 @@ body{
 }
 .view-full-layout{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    flex: 1;
 
 }    
 .button-view-full-layout{
