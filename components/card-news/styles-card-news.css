@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.card-news{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(200, 200, 200, 0.4);
+    border-radius: 5px;
+    transform: none;
+    box-shadow: none;
+    transition: transform ease 0.3s,box-shadow 0.3s  ;
+}
+.card-news:hover .tiltle-every-news span{
+    color: #FF5F5C ;
+}
+.card-news:hover .image-news{
+    transform: scale(1.06);
+}
+.card-news:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 50px 30px -40px rgba(0,0,0,.1);
+}
+.over-flow-hidden-news{
+    overflow: hidden;
+    display: block;
+}
+.image-news{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    transform: none;
+    transition: transform ease 0.3s;
+}
+    
+.tiltle-every-news{
+    display: block;
+   padding: 20px 30px 30px 30px;
+}
+.tiltle-every-news span{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: black;
+    transition: color ease 0.3s;
+}
+.tiltle-every-news a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.5s;
+}
+.tiltle-every-news a:hover{
+    color: #777777;
+}
+.date-news{
+    margin-top: 30px;
+}
+#a-date-news, #span-date-news{
+    color: #777777;
+    font-weight: 300;
+    font-size: 0.9rem;
+    transition: color 0.5s;
+    
+
+}
+#a-date-news:hover{
+    color: #bbbbbb;
+}
+#a-date-news::after{
+    
+    content: '•';
+    color: #777777;
+    font-size: 18px;
+    line-height: 18px;
+    bottom: 0;
+    margin: 5px;
+    
+   
+    
+}
