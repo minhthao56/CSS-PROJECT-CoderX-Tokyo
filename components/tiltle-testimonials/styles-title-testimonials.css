@@ -1,0 +1,14 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.title-testimonial{
+    text-align: center;
+}
+.title-testimonial h2{
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+.title-testimonial p{
+    color: rgba(100, 100, 100, 0.9);
+    font-weight: 300;
+}
