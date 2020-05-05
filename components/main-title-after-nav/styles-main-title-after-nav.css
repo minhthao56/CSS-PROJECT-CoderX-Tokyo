@@ -12,6 +12,8 @@
 .button-free-consultation button{
     font-family: 'Roboto', sans-serif;
     color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
     border: none;
     background-color: #FF5F5C;
     height: 2.5rem;
