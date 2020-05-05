@@ -54,6 +54,7 @@ body{
     border-width:5px;  
     border-top:dotted;
     border-color: #eeeeee;
+    margin-bottom: 20px;
 }
 .main5{
     display: grid;
