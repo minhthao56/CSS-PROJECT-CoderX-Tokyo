@@ -1,0 +1,36 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.card-testimonials{
+    font-weight: 300;
+    color: #666666;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    border-radius: 4px;
+    line-height: 25px;
+    box-shadow: none;
+    transform: none;
+    transition: transform 0.3s, box-shadow 0.5s;
+}
+.card-testimonials:hover{
+    box-shadow: 0px 50px 30px -40px rgba(0,0,0,0.1);
+    transform: translateY(-7px);
+}
+.para-testimonals{
+    padding: 30px;
+}
+.name-avatar{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.name-avatar p{
+    font-size: 0.93rem;
+}
+.name-avatar img{
+    margin-top: -42px;
+    border-radius: 100%;
+}
+.card-testimonials hr{
+    border: 0.2px solid #dddddd;
+}
