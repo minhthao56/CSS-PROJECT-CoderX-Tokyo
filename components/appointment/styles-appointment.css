@@ -3,16 +3,15 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(/Bai-tap-lon-css/images/home.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .container-appointment{
     background-color: white;
     border-radius: 5px;
-    padding: 2rem;
+    padding: 2rem 3rem 2rem 3rem;
 }
 .titile-appointment{
     display: flex;
@@ -22,6 +21,7 @@ body{
 }
 .titile-appointment h2{
     margin: 0;
+    font-weight: 400;
 }
 .span-apppoitment{
     color: #666666;
@@ -35,7 +35,7 @@ body{
     flex-direction: column;
 }
 ::placeholder, input[type=date]{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #aaaaaa;
 }
 .textarea-appointment, .input-appointment{
@@ -44,7 +44,7 @@ body{
     border-radius: 3px;
     border-width: 1px;
     margin: 10px 0 10px 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-left: 10px;
     transition: border-color 0.7s;
 }
@@ -100,7 +100,7 @@ body{
     background-color: #FF5F5C;
     color: white;
     height: 40px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     border-radius: 5px;
     font-size: 0.9rem;
     margin-top: 1rem;
