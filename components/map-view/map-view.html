@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map View</title>
+    <link rel="stylesheet" href="styles-map-view.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="containter-map-consultation">
+        <div class="overplay-map">
+            <div class="container-map">
+                <div id="map"></div>
+            </div>
+            <div class="consultation">
+                <div class="title-consultation">
+                    <h1>Get Free Consultation</h1>
+                    <span>We will answer your questions, scope your project
+                        and discuss your potential fit in style</span>
+                </div>
+                <form class="form-consultation" action="">
+                    <input class="input-consultation" type="text" placeholder="Name">
+                    <input class="input-consultation" type="email" placeholder="Email">
+                    <input class="input-consultation" type="email" placeholder="Your subject">
+                    <textarea class="textarea-consultation" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    <input class="submit-consultation" type="submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 10.823099, lng: 106.629662},
+          zoom: 8
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4bsRrSLNFMMryaEQ9FKN7tso9gKWQLvM&callback=initMap"></script>
+</body>
+</html>
