@@ -7,6 +7,6 @@ This project have been requested by CoderX tokyo which is name company of my cou
 # Contributing
 Pull requests are welcomed.
 # Deployment
-Deploy: [CSS Project](https://css-project-coderx-tokyo-6a193.web.app/)
+Deploy firebase hosting: [CSS-PROJECT-CoderX-Tokyo](https://css-project-coderx-tokyo-6a193.web.app/)
 # About
 This project is developed by *Nguyen Minh Thao*. I started CoderX tokyo course on 17/4/2020.
